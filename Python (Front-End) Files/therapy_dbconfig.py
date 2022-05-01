@@ -1,7 +1,0 @@
-class Config(object):
-    DEBUG=True
-    MYSQL_DATABASE_HOST="localhost"
-    MYSQL_DATABASE_USER="root"
-    MYSQL_DATABASE_PASSWORD="Abfib2020!"
-    MYSQL_DATABASE_PORT=3306
-    MYSQL_DATABASE_SCHEMA="Therapy"
