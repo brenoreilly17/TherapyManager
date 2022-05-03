@@ -8,6 +8,7 @@ class AddClient(Frame):
         self.db = db
         self.onclose = onclose
 
+    #All widgets pertaining to client information pop up (font set, location set, width of text boxes set)
     def create_widgets(self):
             Label(self, text= "Enter First Name:", font= "Helvetica 18 bold").grid(row=0, column=1, sticky = W)
             self.entry_first_name = Entry(self, width = 12)
@@ -27,6 +28,7 @@ class AddClient(Frame):
 
             Button(self, text="Save", command=self.add_to_database).grid(row=10, column=3, sticky=W)
 
+    #Pushes the information to the MySQL Workbench database for the therapist to see
     def add_to_database(self):
         first_name = self.entry_first_name.get()
         last_name = self.entry_last_name.get()
