@@ -16,12 +16,14 @@ class Therapy_Manager (object):
 
     def onclose_path_selector(self, selected_therapy):
 
+        #First window closes down and AddClient information pops up
         if selected_therapy == "add client":
             self.path_chooser.destroy()
             self.root.title("Add Client")
             self.addclient_screen = AddClient(self.root, self.db, self.onclose_add_client_appointment)
 
 
+        #First window closes down and AddAppointment information pops up
         elif selected_therapy == "add appointment":
             self.path_chooser.destroy()
             self.root.title("Add Appointment")
