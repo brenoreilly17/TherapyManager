@@ -10,6 +10,7 @@ class AddAppointment(Frame):
 
     def create_widgets(self):
 
+        #"Label" tells you what type of information to give (and in which format)
         Label(self, text="Enter appointment date (YYYY/MM/DD):").grid(row=0, column=1, sticky=W)
         self.entry5_ent = Entry(self, width=6)
         self.entry5_ent.grid(row=0, column=3, sticky=W)
