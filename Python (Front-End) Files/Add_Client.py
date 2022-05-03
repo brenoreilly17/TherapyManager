@@ -10,6 +10,7 @@ class AddClient(Frame):
 
     #All widgets pertaining to client information pop up (font set, location set, width of text boxes set)
     #'Label' pertains to the type of information needed as inputs
+    #'Entry' is the actual box you enter information to
     def create_widgets(self):
             Label(self, text= "Enter First Name:", font= "Helvetica 18 bold").grid(row=0, column=1, sticky = W)
             self.entry_first_name = Entry(self, width = 12)
