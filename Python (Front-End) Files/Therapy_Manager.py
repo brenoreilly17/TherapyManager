@@ -1,4 +1,7 @@
+#Python's de-facto standard GUI (graphical user interface) package
+#This is what allows us to have a pop-up screen for entering information (a.k.a. what the user sees at all times)
 from tkinter import *
+
 from Project.Add_Client import AddClient
 from Project.Internal_Assessment_First_Screen import ChoosePath
 from Project.Add_Appointment import AddAppointment
