@@ -43,6 +43,7 @@ class AddAppointment(Frame):
 
         Label(self, text = "Choose Therapy Type:").grid(row = 6, column = 2, sticky = W)
 
+        #Radio buttons are the type that allow you to click and only choose one option (circular buttons)
         self.therapy_type = StringVar()
         le = Radiobutton(self, text= "Learning Evaluation", variable=self.therapy_type, value=1)
         le.grid(row=7,column = 2, sticky = W)
