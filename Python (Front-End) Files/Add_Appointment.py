@@ -52,6 +52,7 @@ class AddAppointment(Frame):
         anx.grid(row = 9, column = 2, sticky = W)
 
 
+    #adding the appointment to the database based on user input
     def add_to_appointment_table(self):
         appt_date = self.entry5_ent.get()
         appt_time = self.entry6_ent.get()
