@@ -21,6 +21,7 @@ class Database(object):
 
     #Executes the statement and then returns the result 
     #Statement - SQL Query
+    #Vars - List of variables values for the query
     """ Executes the statement and then returns the result
         Statement - SQL Query
         Vars - List of variables values for the query
