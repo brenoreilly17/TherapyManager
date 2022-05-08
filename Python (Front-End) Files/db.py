@@ -2,7 +2,7 @@ from Project.therapy_dbconfig import Config
 import mysql.connector
 
 class Database(object):
-    """ Initializes the database connection """
+    #Initializes the database connection
     def __init__(self):
         self.cnx = None
         self.connect()
