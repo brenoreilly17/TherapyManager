@@ -64,10 +64,10 @@ class Database(object):
 
         return None
 
-    """ Executes the insert statement and returns the generated key from the insert.
-        Statement - SQL Query
-        Vars - List of variables values for the query
-        Returns the generated key """
+    #Executes the insert statement and returns the generated key from the insert.
+    #Statement - SQL Query
+    #Vars - List of variables values for the query
+    #Returns the generated key
     def insert_get_generated_key(self, statement, vars):
         cur = self.cnx.cursor()
 
