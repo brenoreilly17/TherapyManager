@@ -15,7 +15,7 @@ class Database(object):
                                       database=Config.MYSQL_DATABASE_SCHEMA,
                                       port=Config.MYSQL_DATABASE_PORT)
 
-    """ Closes the connection to the database """
+    #Closes the connection to the database
     def disconnect(self):
         self.cnx.close()
 
