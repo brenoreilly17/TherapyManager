@@ -50,10 +50,10 @@ class Database(object):
         cur.close()
         return result
 
-    """ Executes the statement (insert, update, or delete)
-        Statement - SQL Query
-        Vars - List of variables values for the query
-        Does not return anything """
+    #Executes the statement (insert, update, or delete)
+    #Statement - SQL Query
+    #Vars - List of variables values for the query
+    #Does not return anything (void)
     def execute(self, statement, vars):
         cur = self.cnx.cursor()
 
