@@ -29,3 +29,4 @@ After each time the user presses “Save”, the user will have the opportunity 
 been saved and has been stored in the database. The user will have access to the information inputted into the database via MySQL Workbench, which will assist the client with running her business smoothly and keeping track of all patient information in a neat, organized, clear, and coherent manner.
 
 Click the "Walkthrough Video" to see how to use my application! Having MySQL Workbench would be a plus, if you are thinking of using the platform. 
+Remember - the platform can be used 
