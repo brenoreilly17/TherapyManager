@@ -7,7 +7,7 @@ class Database(object):
         self.cnx = None
         self.connect()
 
-    """ Opens the connection to the database """
+    #Opens the connection to the database
     def connect(self):
         self.cnx = mysql.connector.connect(user=Config.MYSQL_DATABASE_USER,
                                       password=Config.MYSQL_DATABASE_PASSWORD,
