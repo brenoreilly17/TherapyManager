@@ -19,6 +19,8 @@ class Database(object):
     def disconnect(self):
         self.cnx.close()
 
+    #Executes the statement and then returns the result 
+    #Statement - SQL Query
     """ Executes the statement and then returns the result
         Statement - SQL Query
         Vars - List of variables values for the query
