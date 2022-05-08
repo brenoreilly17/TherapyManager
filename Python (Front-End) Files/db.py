@@ -37,9 +37,7 @@ class Database(object):
 
     #Executes the statement and then returns the first row from the result
     #Statement - SQL Query
-    """ Executes the statement and then returns the first row from the result
-        Statement - SQL Query
-        Vars - List of variables values for the query """
+    #Vars - List of variables values for the query
     def query_one(self, statement, vars=""):
         cur = self.cnx.cursor()
 
