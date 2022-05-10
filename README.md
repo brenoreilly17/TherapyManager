@@ -16,7 +16,7 @@ number
 time, and appointment date
 4. The option to choose which type of therapy pertains to each client
 
-And most important of all... the ability to manage information in a SUPER way from the user's perspective!
+And most important of all... the ability to manage information in a SUPER easy way from the user's perspective!
 
 The program also prevents the client from entering invalid information, and the system allows the user to add as many clients and appointments as she wants until she desires to terminate the program.
 
