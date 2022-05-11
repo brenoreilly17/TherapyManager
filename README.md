@@ -14,7 +14,7 @@ Currently, the program supports:
 number
 3. The entering of appointment details, including appointment duration, appointment
 time, and appointment date
-4. The option to choose which type of therapy pertains to each client
+4. The option to choose which type of therapy pertains to each client's own needs.
 
 And most important of all... the ability to manage information in a SUPER easy way from the user's perspective!
 
