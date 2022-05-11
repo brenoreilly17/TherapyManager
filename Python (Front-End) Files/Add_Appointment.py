@@ -1,5 +1,5 @@
 #Python's de-facto standard GUI (graphical user interface) package
-#This is what allows us to have a pop-up screen for entering information (a.k.a. what the user sees at all times)
+#This is what allows us to have a pop-up screen for entering client information
 from tkinter import *
 
 class AddAppointment(Frame):
